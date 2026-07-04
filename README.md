@@ -2,7 +2,7 @@
 
 An interactive Marginal Abatement Cost (MAC) curve dashboard for decarbonization technologies in Indian integrated steel plants — built with Streamlit.
 
-**Live app:** https://dynamicmac-dpmaksxrjesskxrxyshq8s.streamlit.app/
+**Live app:** https://dynamic-mac-curve-idffk4dts4v2ysngewum88.streamlit.app/
 
 ## What this does
 
@@ -42,8 +42,8 @@ Exploratory analysis and the price-forecasting model live in the notebooks:
 ## Running locally
 
 ```bash
-git clone https://github.com/shambhavi1635/DynamicMAC.git
-cd DynamicMAC
+git clone https://github.com/shambhavi1635/DYNAMIC-MAC-Curve
+cd MAC
 pip install -r requirements.txt
 streamlit run app.py
 ```
@@ -53,7 +53,7 @@ The app expects the four data files listed above to be present in the same data 
 ## Project structure
 
 ```
-DynamicMAC/
+MAC/
 ├── app.py                          # Streamlit app: MAC curve computation + UI
 ├── notebooks/
 │   ├── EDA_Technology.ipynb
